@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Student Registration For</title>
+ </head>
+ <body>
+ <h1>Student Registration</h1>
+ <form>
+ <label for="name">Name:</label>
+ <input type="text" id="name" name="name"
+ placeholder="Enter your name"><br><br>
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+<br>
+ <label for="phone">Phone:</label>
+ <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+<br><br>
+ <label for="dob">Date of Birth:</label>
+ <input type="date" id="dob" name="dob"><br><br>
+ <label for="gender">Gender:</label>
+ <input type="radio" id="male" name="gender" value="male">
+ <label for="male">Male</label>
+ <input type="radio" id="female" name="gender" value="female">
+ <label for="female">Female</label>
+ <input type="radio" id="other" name="gender" value="other">
+ <label for="other">Other</label><br><br>
+ <label for="course">Course:</label>
+ <select id="course" name="course">
+ <option value="btech">B.Tech</option>
+ <option value="mtech">M.Tech</option>
+ <option value="mba">MBA</option>
+ <option value="msc">M.Sc</option>
+ <optgroup label="Undergraduate">
+ <option value="bca">B.C.A</option>
+ <option value="bsc">B.Sc</option>
+ <option value="ba">B.A</option>
+ <option value="bcom">B.Com</option>
+ </optgroup>
+ <optgroup label="Postgraduate">
+ <option value="ma">M.A</option>
+ <option value="mcom">M.Com</option>
+ </optgroup>
+ </select><br><br>
+ <label for="year">Year of Study:</label>
+ <input type="number" id="year" name="year" min="1" max="5" placeholder="Enter
+your year of study"><br><br>
+</p>
+<p>
+<label>Address: </label><br>
+<textarea name="address" rows="4" cols="40" placeholder="Enter your address" required>
+</textarea>
+</p>
+<p>
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</p>
+</form>
+<hr>
+<p align="center">&copy; 2026 Student Registration Portal</p>
+</body>
+</html>
